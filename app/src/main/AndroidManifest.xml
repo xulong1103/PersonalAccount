@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.system.personalaccount">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.welcomepage.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.function1.FirstActivity" />
+        <activity android:name=".activity.function1.RecordActivity" />
+        <activity android:name=".activity.function1.RemarkActivity" />
+        <activity android:name=".activity.function1.RemarkContentActivity" />
+        <activity android:name=".activity.function1.SetRemarkActivity" />
+        <activity android:name=".activity.setting.SystemSettingActivity" />
+        <activity android:name=".activity.setting.ManageTypeActivity" />
+        <activity android:name=".activity.setting.InstructionActivity" />
+        <activity android:name=".activity.function2.SecondActivity" />
+        <activity android:name=".activity.function2.AddExpendActivity" />
+        <activity android:name=".activity.function2.AddIncomeActivity" />
+        <activity android:name=".activity.function2.UpdateExpendActivity" />
+        <activity android:name=".activity.function2.UpdateIncomeActivity" />
+        <activity android:name=".activity.function2.SearchExpendActivity" />
+        <activity android:name=".activity.function2.SearchIncomeActivity" />
+        <activity android:name=".activity.function2.ExpendActivity"/>
+    </application>
+
+</manifest>
